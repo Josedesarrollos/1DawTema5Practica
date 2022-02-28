@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
             String miAlumnoStr, miAlumnoNotaTexto;
             miAlumno.Nombre = aluNombre.Text;
             miAlumno.Nota = Convert.ToInt32(aluNota.Text);
-            if (miAlumno.Nota < 5)
+            if (miAlumno.Nota < 6)
             {
                 miAlumnoNotaTexto = "Suspenso";
             }
