@@ -58,7 +58,7 @@ namespace WindowsFormsApp1
         {
             get
             {
-                if (nota >= 5)
+                if (nota >= 4)
                     return true;
                 else
                     return false;
